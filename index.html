@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册登录页</title>
+		<style type="text/css">
+			*{
+			font-family:"微软雅黑";
+			}
+	     div#register{
+				width: 410px;
+				height: 250px;
+				margin: 0px auto;
+				/*background: #FF0000;*/
+				border:2px solid aquamarine ;
+			}
+			#register2{
+				width:410px;
+				height: 50px;
+				text-align: center;
+				background: aquamarine;
+				margin 0px;
+			  }
+			  #register2 h1{
+			  	margin: 0px;
+			  	
+			  }
+			  #register3{
+			  	width: 410px;
+			  	height: 180px;
+			  /*background: red;*/
+			  }
+			  #register4{
+			  	width: 410px;
+			  	height: 20px;
+			  	/*background: salmon;*/
+			  }
+			  #register4 p{
+			  	margin: 0px;
+			  	text-align: right;
+			  	font-size: 12px;
+			  }
+			  #register4 p a{
+			  	color: red;
+			  	text-decoration: none;
+			  }
+			form{
+				height: 30px;
+				line-height: 30px;
+				}
+				
+		</style>
+	</head>
+<body>
+	<div id="register">
+			<div id="register2">
+				<h1>欢迎注册</h1>
+			</div>
+	<div id="register3">
+		<form action="" method="post"  >
+	              姓名：<input type="text" placeholder="请输入姓名" required="required" maxLength="4" name="" id="" value="" /><span style="color: red;" >*</span><br />
+	              密码：<input type="password" placeholder="请输入密码" maxLength="12" required="required" name="" id="" value="" /><br />
+		   上传文件:<input type="file" multiple="multiple"  style=" width: 170px;"  name="" id="" value="" /><span >（可以同时上传多个） </span><br />
+		    联系电话:<input type="tel" pattern="027-[0-9]{8}||0713-[0-9]{7}" name="" id="" value="" placeholder="请输入电话号码" />(格式：027-1234678)<br />
+	      QQ号码:<input type="text" pattern="[0-9]{5,12}" placeholder="请输入QQ号码" /><br />
+	           <input type="submit" value="注册" style=" width:56px; height: 25px; margin-left: 100px; "/>	 
+	           <input type="reset" value="重置" style=" width:56px;height: 25px; margin-left: 30px;" />
+	    </font> 
+	 </div>
+	 <div id="register4">
+	 	<p><a href="./index2.html">已有账号，直接登录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></p>
+	 </div>
+	</div>
+</body>
+</html>-
